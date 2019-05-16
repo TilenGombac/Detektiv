@@ -39,6 +39,10 @@
     background-size: cover;
 }
 
+#cenikButtons {
+    min-height: 445px;
+}
+
 #o-meni {
     background: url('../img/background2.jpg') fixed no-repeat center center;
     -webkit-background-size: cover;
