@@ -1,0 +1,78 @@
+#menu-collapse
+{
+    visibility: hidden;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px)
+{
+    #menu-collapse {
+        visibility: visible;
+        position: fixed !important;
+        right: 0 !important;
+        top: 10px !important;
+        z-index: 9999 !important;
+    }
+}
+
+.visible {
+    visibility: visible !important;
+}
+
+.page {
+    width: 100%;
+    height: 101.4vh; /* Semantic UI grid... */
+}
+
+#domov {
+    background: url('../img/background0.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#zakonodaja {
+    background: url('../img/background1.jpg') fixed no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#o-meni {
+    background: url('../img/background2.jpg') fixed no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#kontakt {
+    background: url('../img/background3.jpg') fixed no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.white {
+    color: #FFF !important;
+}
+
+.welcome-message {
+    font-family: 'Courgette', cursive !important;
+}
+
+.extra-padding {
+    padding: 4em 0 !important;
+}
+
+footer {
+    background: rgb(27, 28, 29);
+}
+
+footer img {
+    display: block;
+    padding: 2em;
+    width: 100%;
+}

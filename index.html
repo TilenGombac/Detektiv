@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Detektiv Sherlock</title>
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link href="./css/semantic.min.css" rel="stylesheet" type="text/css" />
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="menu-collapse">
+        <h2 class="ui header blue"><i class="content icon"></i></h2>
+    </div>
+    <header class="ui huge stackable fixed menu inverted">
+        <div id="menu" class="ui container">
+            <div class="header item">
+                Detektiv Sherlock
+            </div>
+            <a data-scroll class="item" href="#domov">Domov</a>
+            <a data-scroll class="item" href="#storitve">Storitve</a>
+            <a data-scroll class="item" href="#zakonodaja">Zakonodaja</a>
+            <a data-scroll class="item" href="#cenik">Cenik</a>
+            <a data-scroll class="item" href="#o-meni">Informacije</a>
+            <a data-scroll class="item" href="#kontakt">Kontakt</a>
+        </div>
+    </header>
+    <section id="domov" class="ui middle aligned grid page">
+        <div class="ui container basic center aligned huge segment column welcome-message white">
+            <p>
+                Dobrodošli na spletni strani detektiva Sherlocka. Sem mlad
+                pa vendar izkušen in strokovno podkovan detektiv, kateri
+                stopam v korak s časom na področju detektivske dejavnosti.
+                Za Vas sem pripravljen v zelo kratkem času organizirati
+                zahtevano storitev. Storitev opravim profesionalno,
+                diskretno, zanesljivo, točno in pošteno. Svojo izvrstnost
+                merim s priporočili zadovoljnih strank. Pri svojem delu
+                uporabljam vsa zakonsko dovoljena sredstva in metode.
+                Pokličite me in pomagal vam bom.
+            </p>
+            <div style="text-align: right; float: right;">
+                <p>
+                    Detektiv Sherlock Holmes,<br />
+                    Številka licence 007
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="storitve" class="extra-padding">
+        <div class="ui stackable container grid">
+            <div class="center aligned sixteen wide column">
+                <h2 class="ui horizontal divider header">
+                    <i class="browser icon"></i>
+                    Storitve
+                </h2>
+            </div>
+            <div class="stretched row">
+                <div class="ui form sixteen wide column">
+                    <div class="field">
+                        <select name="storitve" class="ui fluid dropdown">
+                            <option value="">Izberi storitev</option>
+                            <option value="0">Detektivovo delovno področje</option>
+                            <option value="1">Osebna zaznava</option>
+                            <option value="2">Zvestoba partnerjev</option>
+                            <option value="3">Vrocanje</option>
+                            <option value="4">Dokazno gradivo</option>
+                            <option value="5">Disciplinske kršitve</option>
+                            <option value="6">Bolniška odsotnost</option>
+                            <option value="7">Zloraba potnih stroškov</option>
+                            <option value="8">Zloraba alkohola in drog na delovnem mestu</option>
+                            <option value="9">Konkurencna prepoved in konkurencna klavzula</option>
+                            <option value="10">Iskanje dolžnikov</option>
+                            <option value="11">Premoženje dolžnikov</option>
+                            <option value="12">Pogrešani predmeti</option>
+                            <option value="13">Pogrešane ali skrite osebe</option>
+                            <option value="14">Mladostniki</option>
+                            <option value="15">Povzročitelji škod</option>
+                            <option value="16">Business intelligence</option>
+                            <option value="17">Tatvine - kraje</option>
+                            <option value="18">Druge diskretne storitve</option>
+                        </select>
+                    </div>
+                    <div class="ui vertical buttons" id="storitveButtons">
+
+                    </div>
+                </div>
+                <div id="storitve-content" class="ui large segment sixteen wide column">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="zakonodaja" class="extra-padding">
+        <div class="ui stackable container grid">
+            <div class="center aligned sixteen wide column">
+                <h2 class="ui horizontal divider header white">
+                    <i class="file outline icon"></i>
+                    Zakonodaja
+                </h2>
+            </div>
+        </div>
+        <div class="ui large basic segment stackable container grid white">
+            <div class="sixteen wide column">
+                <p>
+                    Zakonodaja, ki opredeljuje delo detektivov je zapisana v
+                    Zakonu o detektivski dejavnosti. Prav tako pa smo se
+                    detektivi zaprisegli, da bomo spoštovali Kodeks poklicne
+                    etike detektivov.
+                </p>
+            </div>
+            <div class="center aligned four wide column">
+                <a href="http://www.detektiv-portal.si/Obrazci2010/Detektivski_zakon.pdf" target="_blank">
+                    <h4 class="ui teal header">
+                        Zakon o detektivski dejavnosti
+                        <i class="external icon"></i>
+                    </h4>
+                </a>
+            </div>
+            <div class="center aligned three wide column">
+                <a href="http://www.detektiv-portal.si/Obrazci2010/Detektivski_kodeks.pdf" target="_blank">
+                    <h4 class="ui teal header">
+                        Detektivski kodeks
+                        <i class="external icon"></i>
+                    </h4>
+                </a>
+            </div>
+            <div class="center aligned five wide column">
+                <a href="http://www.detektiv-portal.si/Obrazci2010/Detektivski_pravilnik_o_ravnanju_z_osebnimi_podatki.pdf" target="_blank">
+                    <h4 class="ui teal header">
+                        Pravilnik o obdelavi osebnih podatkov
+                        <i class="external icon"></i>
+                    </h4>
+                </a>
+            </div>
+            <div class="center aligned four wide column">
+                <a href="http://www.detektiv-portal.si/Obrazci2010/Nadzor_nad_detektivi.pdf" target="_blank">
+                    <h4 class="ui teal header">
+                        Inšpekcija nad detektivi
+                        <i class="external icon"></i>
+                    </h4>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="cenik" class="extra-padding">
+        <div class="ui stackable container grid">
+            <div class="center aligned sixteen wide column">
+                <h2 class="ui horizontal divider header">
+                    <i class="dollar icon"></i>
+                    Cenik
+                </h2>
+            </div>
+            <div class="stretched row">
+                <div class="four wide column">
+                    <div class="ui vertical buttons" id="cenikButtons">
+                        <button class="ui blue button active" onclick="cenikContentSwap(0)">O ceniku</button>
+                        <button class="ui blue button" onclick="cenikContentSwap(1)">Detektivska ura</button>
+                        <button class="ui blue button" onclick="cenikContentSwap(2)">Nadzor zaposlenega na bolniški</button>
+                        <button class="ui blue button" onclick="cenikContentSwap(3)">Osebno vrocanje</button>
+                        <button class="ui blue button" onclick="cenikContentSwap(4)">Tatvine</button>
+                        <button class="ui blue button" onclick="cenikContentSwap(5)">Varno zaposlovanje</button>
+                        <button class="ui blue button" onclick="cenikContentSwap(6)">Test na droge</button>
+                        <button class="ui blue button" onclick="cenikContentSwap(7)">Kontrola zlorabe potnih stroškov</button>
+                        <button class="ui blue button" onclick="cenikContentSwap(8)">Iskanje premoženja dolžnikov</button>
+                    </div>
+                </div>
+                <div id="cenik-content" class="ui large segment twelve wide column">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="o-meni" class="extra-padding">
+        <div class="ui stackable container grid">
+            <div class="center aligned sixteen wide column">
+                <h2 class="ui horizontal divider white header">
+                    <i class="spy icon"></i>
+                    O meni
+                </h2>
+            </div>
+            <div class="ui white large basic segment sixteen wide column">
+                <p>Pozdravljeni,</p>
+                <p>
+                    sem licencirani detektiv, kateri svoje poslanstvo vidim v
+                    nudenju detektivskih storitev. Cilj in vizija mojega podjetja
+                    je postati vodilni in zanesljiv partner na področju detektivske
+                    dejavnosti v Sloveniji. Naročnikom pa  želim v koraku s časom
+                    in potrebami ponuditi širok nabor detektivskih storitev.
+                </p>
+                <p>
+                    Strategija mojega podjetja je spoštovanje naročnikov, ostalih
+                    strank v postopku, ter njihovih pravic.
+                </p>
+                <p>
+                    Pri opravljanju storitev spoštujem zakonodajo, etični kodeks
+                    detektivov, diskretnost in varovanje osebnih podatkov.
+                </p>
+                <div style="text-align: right; float: right;">
+                    <p>
+                        Detektiv Sherlock Holmes,<br />
+                        Številka licence 007
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="o-podjetju" class="extra-padding">
+        <div class="ui stackable container grid">
+            <div class="center aligned sixteen wide column">
+                <h2 class="ui horizontal divider header">
+                    <i class="info icon"></i>
+                    Osnovni podatki podjetja
+                </h2>
+            </div>
+            <div class="ui large basic segment five wide column">
+                <p>Dolgi naziv : <strong>Detektiv Sherlock Holmes, s.p.</strong></p>
+            </div>
+            <div class="ui large basic segment four wide column">
+                <p>Matična številka: <strong>654266600</strong></p>
+            </div>
+            <div class="ui large basic segment four wide column">
+                <p>Davčna številka: <strong>11121170</strong></p>
+            </div>
+            <div class="ui large basic segment three wide column">
+                <p>Davčni zavezanec: <strong>Ne</strong></p>
+            </div>
+            <div class="ui large basic segment eight wide column">
+                <p>TRR: <strong>SI56 2923 0665 1132 991 (UniCredit Banka Slovenija d.d.)</strong></p>
+            </div>
+            <div class="ui large basic segment eight wide column">
+                <dt>SKD:</dt>
+                <dd>N80.300 - <strong>Poizvedovalne dejavnosti</strong></dd>
+                <dd>N82.910 - <strong>Zbiranje terjatev in ocenjevanje kreditne sposobnosti</strong></dd>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontakt" class="extra-padding">
+        <div class="ui stackable container grid">
+            <div class="center aligned sixteen wide column">
+                <h2 class="ui horizontal divider white header">
+                    <i class="call icon"></i>
+                    Kontakt
+                </h2>
+            </div>
+            <div class="sixteen wide column">
+                <form class="ui form">
+                    <div class="ui error message">
+                        <div class="header">Napaka</div>
+                        <p>Vsa polja niso pravilno izpolnjena</p>
+                    </div>
+                    <div class="field">
+                        <label class="white">Kontaktne informacije</label>
+                        <div class="two fields">
+                            <div class="field">
+                                <input id="kontaktIme" type="text" placeholder="Ime" />
+                            </div>
+                            <div class="field">
+                                <input id="kontaktPriimek" type="text" placeholder="Priimek" />
+                            </div>
+                        </div>
+
+                        <div class="two fields">
+                            <div class="field">
+                                <input id="kontaktPodjetje" type="text" placeholder="Podjetje" />
+                            </div>
+                            <div class="field">
+                                <input id="kontaktEmail" type="text" placeholder="E-pošta" />
+                            </div>
+                        </div>
+
+                        <div class="two fields">
+                            <div class="field">
+                                <input id="kontaktStevilka" type="number" placeholder="Tel. številka" />
+                            </div>
+                            <div class="field">
+                                <select id="kontaktDrzava" class="ui fluid dropdown">
+                                    <option value="">Izberi državo</option>
+                                    <option value="si">Slovenija</option>
+                                    <option value="gb">Velika Britanija</option>
+                                    <option value="ot">Drugo</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="white">Sporočilo</label>
+                        <textarea id="kontaktSporocilo"></textarea>
+                    </div>
+
+                    <div class="inline fields">
+                        <label for="odgovor" class="white">Prosim za odgovor po: </label>
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                                <input type="radio" name="odgovor" class="hidden" value="0" checked />
+                                <label class="white">e-pošti</label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                                <input type="radio" name="odgovor" class="hidden" value="1" />
+                                <label class="white">telefonu</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <div class="ui blue button" onclick="posljiPodatke()">Pošlji</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="ui modal">
+        <i class="close icon"></i>
+        <div class="header">
+            Vsebina sporočila
+        </div>
+        <div class="content">
+            <div class="description">
+                <div class="ui header">Podatki</div>
+                    <p>Ime: <b id="cIme"></b></p>
+                    <p>Priimek: <b id="cPriimek"></b></p>
+                    <p>Podjetje: <b id="cPodjetje"></b></p>
+                    <p>E-pošta: <b id="cEmail"></b></p>
+                    <p>Telefon: <b id="cTelefon"></b></p>
+                    <p>Država: <b id="cDrzava"></b></p>
+            </div>
+            <br />
+            <div class="description">
+                <div class="ui header">Sporocilo</div>
+                    <p id="cSporocilo"></p>
+            </div>
+            <br />
+            <div class="description">
+                <b><p id="cOdgovor"></p></b>
+            </div>
+        </div>
+        <div class="actions">
+            <div class="ui black deny button">
+                Prekliči
+            </div>
+            <div class="ui positive right labeled icon button" onclick="alert('OK');">
+                Pošlji
+                <i class="checkmark icon"></i>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="ui stackable container grid">
+            <div class="five wide column">
+                <div class="ui basic huge segment white">
+                    <p><strong>Ljubljana in ostala Slovenija</strong></p>
+                    <p>Detektiv z licenco številka 007.</p>
+                    <p>Sherlock Holmes</p>
+                    <p>M: +386 <strong>(0)80 911 911</strong></p>
+                    <p>E: sherlock@gmail.com</p>
+                </div>
+            </div>
+            <div class="five wide column">
+                <div class="ui basic huge segment white">
+                    <p><strong>London</strong></p>
+                    <p>Detektiv z licenco številka 007.</p>
+                    <p>M: +44 911 666</p>
+                    <p>E: sherlockLondon@gmail.com</p>
+                </div>
+            </div>
+            <div class="six wide column">
+                <div class="ui basic huge segment white">
+                    <p>DETEKTIV SHERLOCK HOLMES, s.p.</p>
+                    <p>Vegova 4</p>
+                    <p>1000 Ljubljana</p>
+                </div>
+            </div>
+            <div class="ui basic huge segment white center aligned sixteen wide column">
+                <p>&copy; 2017 Tilen Gombač. Vse pravice pridržane.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./js/semantic.min.js"></script>
+    <script src="./js/smoothscroll.js"></script>
+    <script src="./js/smooth-scroll.min.js"></script>
+
+    <script>
+        smoothScroll.init({
+        selector: '[data-scroll]',
+        selectorHeader: null,
+        speed: 1000,
+        easing: 'easeInOutCubic',
+        offset: 0,
+        callback: function ( anchor, toggle ) {}
+        });
+    </script>
+    <script>
+        $('.ui.fluid.dropdown')
+            .dropdown({
+                allowAdditions: true
+            })
+        ;
+        $('.ui.radio.checkbox')
+            .checkbox()
+        ;
+    </script>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
